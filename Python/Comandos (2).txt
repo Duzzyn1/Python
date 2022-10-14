@@ -1,0 +1,71 @@
+Também podemos fazer soma,multiplicações,subtraçõese divisões utilizando:                document.write("A média das idades é");
+                                                                                         document.write(20 + 10 + 30/3);                                           
+                                                                                                                                                                                                        
+Soma- +                                                                                    Com isso, esperamos que o resultado seja 20. 
+Multiplicação- *                                                                           Salvaremos o programa, e recarregaremos a página no navegador.                                                                                                                                                                                                                                              
+Subtração= -                                                                               Tivemos o seguinte resultado:                                                             
+Divisões- /                                                                                A média das idades é 40                                                                          
+                                                                                                                                                                           
+<script>                                                                                   Pois ele faz a DIVISÃO primeiro dando o resultado 10                                                                         
+                                                                                           Em o JavaScript soma 20+10+10= 40                                                                                     
+document.write("A idade do Flávio é ");                                                                                                                                                                   
+document.write(18 + 20);                                                                   para chegarmos no resultado 20 faremos:                                                                          
+                                                                                           document.write((20 + 10 + 30)/3);                                                                         
+</script>                                                                                  o JavaScript entenderá que tem que somar 20+10+30 primeiro, sendo assim:                                                                               
+                                                                                           20+10+30= 60                                                                        
+OU:                                                                                        depois ele dividirá por 3:                                                                          
+                                                                                           60/3 = 20                                                                                                                                      
+<script>                                                                                                                                                                                        
+                                                                                           document.write("A soma das idades é" + (20 + 10 + 30)/3);                                                                                  
+document.write("A idade do Flávio é ");                                                    Aqui temos uma concatenação, o JavaScript vai colocar aspas "invisiveis" nos numeros                                                                                                      
+document.write(18 * 20)                                                                    e assim, vira um texto                                                                               
+                                                                                                                                                                                                    
+</script>                                                                                  para somar faremos: 
+                                                                                           document.write("A soma das idades é" + (20+10+30));                                                                                           
+18 * 20 = 360                                                                              para vermos a média faremos:                                                                                                            
+                                                                                           document.write("A soma das idades é" + (20+10+30)/3);                                                                                            
+AGORA TEMOS:                                                                                                                                                                                          
+                                                                                           Por que os parenteses nos numeros?, simples, para o JavaScript identificar                                                                                                                         
+document.write("A idade do Flávio é ");                                                    Que aquilo deve ser processado primeiro, assim o JavaScript fará a conta primeiro                                                                                                        
+document.write("18" + "20");                                                               e logo depois irá ler da esquerda pra direita                                                                                                                  
+                                                                                                                                                                                                                                                                       
+Ao invés de somar, os números irão se juntar obtendo o resultado:                          document.write("Flávio nasceu em" + (2016 - 39));
+A idade do flávio é 1820                                                                   document.write("Joaquim nasceu em" + (2016 - 20)); 
+Chamamos isso de concatenação                                                              document.write("Barney nasceu em" + (2016 - 40));     
+
+
+document.write("Flávio nasceu em" + (2016 - 39));
+document.write("Joaquim nasceu em" + (2016 - 20));
+document.write("Barney nasceu em" + (2016 - 40));
+
+obteremos: 
+Flávio nasceu em1977Joaquim nasceu em1996Barney nasceu em 1976
+
+Corrigimos isso para:
+
+document.write("Flávio nasceu em" + (2016 - 39) + "<br>");
+document.write("Joaquim nasceu em" + (2016 - 20) + "<br>");
+document.write("Barney nasceu em" + (2016 - 40) + "<br>");
+ 
+OU 
+
+document.write("Flávio nasceu em " + (2016 - 39));
+document.write("<br>");
+document.write("Joaquim nasceu em " + (2016 - 20));
+document.write("<br>");
+document.write("Barney nasceu em " + (2016 - 40));
+document.write("<br>");
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                    

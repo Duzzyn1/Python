@@ -1,0 +1,22 @@
+<strong> Barbearia Alura </strong> 
+(vai destacar essa linha em negrito, como se fosse uma palavra importante.)
+
+<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+(<p> para indicar que ali é um paragrafo.)
+
+<p><em>Nossa missão é: <strong> "Proporcionar auto-estima e qualidade de vida aos clientes".</em>
+(<em> para dar enfâse ao paragrafo.)
+
+Com a tag DOCTYPE, definimos qual versão do HTML estamos utilizando
+
+A tag <html>, que marca o conteúdo a ser renderizado no navegador
+Dentro desta tag, podemos definir a linguagem da página, através da propriedade LANG
+
+<p style = "font-size: 20px">
+
+(px = pixels)
+(20 = tamanho da fonte)
+
+<h1 style="text-align: center;"> Sobre a Barbearia Alura </h1>
+
+style="text-align: center;"> (alinhar uma linha no meio)

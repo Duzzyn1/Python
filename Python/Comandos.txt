@@ -1,0 +1,50 @@
+PARA SALVAR UM PROGRAMA APERTE CTRL+S
+PARA CRIAR UM PROGRAMA CTRL+N
+PARA ABRIR UM PROGRAMA NO NAVEGADOR CTRL+O
+
+
+Até o final do curso,para cada programa que você criar, 
+é preciso criar um novo arquivo com extensão .html e adicionar a tag <meta> e <script> como abaixo:
+
+<meta charset="UTF-8">
+
+<script>
+     alert("");
+</script>
+
+É por isso que ter em mente essas instruções é tão importante.
+A primeira, <meta charset="UTF-8"> resolve o problema de acentuação e a segunda define o mundo JavaScript,
+pois é entre a abertura da tag <script> e seu fechamento </script> que escreveremos os códigos dinâmicos!
+
+USE document.write("");
+Para escrever no mundo do html
+
+<scrpit>
+
+  document.write("");
+
+</script>
+
+O JavaScript só entende algo como texto quando está em ("");
+
+Se você escrever:
+
+<script>
+
+document.write("a idade do Flávio é");
+
+</script>
+
+Vai ser interpretado como texto
+
+agora:
+
+<script>
+
+document.write("a idade do flávio é");
+document.write(18);
+
+</script>
+
+document.write(18); 
+Vai entender como numero, pois não está entre aspas
